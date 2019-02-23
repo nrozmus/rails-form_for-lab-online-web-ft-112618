@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h3>Student Form</h3>
 
  <%= form_for @student do |f| %>
@@ -7,3 +8,13 @@
   <%= f.text_field :last_name %><br>
    <%= f.submit "Create Student" %>
 <% end %>
+=======
+<h2>School Class Form </h2>
+<%= form_for(@school_class) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :room_number %>
+  <%= f.text_field :room_number %>
+  <%= f.submit %>
+<% end %>
+>>>>>>> e32d271ee64d82b2e8fcb1cf4aa884f911a49f19
